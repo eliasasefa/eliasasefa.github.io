@@ -1,6 +1,6 @@
 
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta http-equiv="refresh" content="300">
 	<meta name="author" content="Elias Asefa">
@@ -12,13 +12,14 @@
 <body>
 	
 <nav>
+	<ul>
 		<li><a href="#home-page">Home</a></li>
 		<li><a href="#projects">Projects</a></li>
 		<li><a href="#about-us">About Us</a></li>
 		<li><a href="#ftr">Contact Us</a></li>
 		<li><input type="text" placeholder="search"></li>
-		<li><button name="" type="button">search</button></li>
-		<!--  <li><button type="button" class="tuned" >Subscribe</li>  -->
+		<li><button name="search" type="button">search</button></li>
+
 	</ul>
 </nav>
 <section class="title1" id="home-page">
@@ -39,21 +40,21 @@
 	</article>
 	<article id="skills">
 		<h3 class="skills">KEY SKILLS</h3>
-		<article>
-			<ul>
+		<article style="padding-left: 40px;">
+
 				<p>C++ Programming</p>
 				<p>Network Programming</p>
 				<p>Java Programming</p>
 				<p>Python Programming</p>
 				<p>Database programming with SQL</p>
-			</ul>
+
 		</article>
 			<button class="hire" onclick="alert('We are still not graduated, you had better comeback when we graduate!')"
 			 >GO AND HIRE US</button>
 	</article>
 	<article id="education">
 		<h3 class="education">EDUCATION</h3>
-		<p class="desc">
+		<div class="desc">
 			<p style="text-align: left;
 			padding-left: 40px;">
 				Bachelor of Science(B.S) <br>
@@ -61,8 +62,8 @@
 				Haramaya University <br>
 				June 2020 - January 2023
 			</p>
-			<span class="word">Graduation Loading...</span>
-		</p>
+			<span class="word" style="padding-left: 40px;">Graduation Loading...</span>
+		</div>
 	</article>
 	<article id="contact">
 		<h3 class="contact">VISION AND MISSION</h3>
@@ -107,7 +108,7 @@
 				the second most popular programming language. Our project on java is :)
 		        
 				<span>employee management system</span>
-		<button type="button" class="tuned"onclick="alert('Please Go to google.com for further study!')"
+		<button type="button" class="tuned" onclick="alert('Please Go to google.com for further study!')"
 		 >Read More</button>
 		<a href="https://github.com/eliasasefa/employee-management-system/tree/master/java%20employee%20Project">
 			source code is here.</a>
@@ -137,7 +138,7 @@
 				 python codes can be easily written and executed much faster than other programming languages.
 				 Our project on python is :)
 				 <span>text to speech converter.</span>
-				 <button type="button" class="tuned"onclick="alert('Go to google.com for further study!')"
+				 <button type="button" class="tuned" onclick="alert('Go to google.com for further study!')"
 				  >Read More</button>
 		<a href="https://github.com/eliasasefa/employee-management-system/blob/master/PROJ.py">
 			source code is here.</a>
@@ -152,10 +153,9 @@
 				our project on data structures is linked list application on 
 				<span id="student">
 				student management system</span>
-				<button type="button" class="tuned"onclick="alert('Go to google.com for further study!')"
+				<button type="button" class="tuned" onclick="alert('Go to google.com for further study!')"
 				 >Read More</button>
-				<a href="https://github.com/eliasasefa/employee-management-system/blob/master/
-				dsa%20project/dsa%20project/data%20structure%20project%202022%20FINAL%20CODE%20ELIAS.1659457772.cpp">
+				<a href="https://github.com/eliasasefa/employee-management-system/blob/master/dsa%20project/dsa%20project/data%20structure%20project%202022%20FINAL%20CODE%20ELIAS.1659457772.cpp">
 					source code is here.</a>
 			</div>
 	</div>
@@ -164,11 +164,12 @@
 
 <div class="about-us" id="about-us">
 
-
+<div class="top">
 	<h4>About Us</h4>
 	We are located in haramaya university.
 	If you want something quickly and accurately built for you, <br>
 	contact us on the social media links provided below.
+</div>
 	<br> <br>
 	<div class="profile" id="profile">
 		<div class="elias">
@@ -216,6 +217,7 @@
 			    I am software engineer.
 			</p>
 		</div>
+	</div>
 	</div>
 
 	<div class="id-table">
@@ -269,14 +271,14 @@
 <hr>
 <footer>
 	<div id="ftr">
-		<h3><span class="social">FOLLOW US ON SOCIAL MEDIA</span></span></h3>
-			<a id="facebook" href="https://twitter.com/EliasAsefa14?s=09"><img class="links" src="square-twitter.svg"></img></a>
-			<a id="twitter" href="https://github.com/eliasasefa"><img class="links" src="github.svg"></img></a>
-			<a href="https://www.facebook.com/groups/570692457934379/"><img class="links" src="facebook.svg"></img></a>
-			<a href="https://t.me/+0xxC9aX714tlMDY0"><img class="links" src="telegram.svg"></img></a>
-			<a href="https://www.linkedin.com/in/elias-asefa-4aa657237"><img class="links" src="linkedin.svg"></img></a>
+		<h3><span class="social">FOLLOW US ON SOCIAL MEDIA</span></h3>
+			<a href="https://twitter.com/EliasAsefa14?s=09"><img class="links" src="square-twitter.svg" alt="twitter"></a>
+			<a href="https://github.com/eliasasefa"><img class="links" src="github.svg" alt="github"></a>
+			<a href="https://www.facebook.com/groups/570692457934379/"><img class="links" src="facebook.svg" alt="facebook"></a>
+			<a href="https://t.me/+0xxC9aX714tlMDY0"><img class="links" src="telegram.svg" alt="telegram"></a>
+			<a href="https://www.linkedin.com/in/elias-asefa-4aa657237"><img class="links" src="linkedin.svg" alt="linkedin"></a>
 			
-			<p style="font-size: 14px;"><b>©</b> 2023 eliasasefa 
+			<p style="font-size: 14px;"><b>© </b>2023 eliasasefa 
 				<br>All Rights Reserved</p>
 	</div>
 	</footer>
