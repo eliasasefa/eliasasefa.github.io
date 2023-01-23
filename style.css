@@ -242,7 +242,7 @@ article h3 {
 .course a {
 	font-weight: bold;
 	font-style: italic;
-	color: rgb(255, 10, 10);
+	color: blue;
 	text-transform: capitalize;
 	text-decoration: none;
 	margin-top: 10px;
@@ -274,8 +274,10 @@ article h3 {
 }
 
 .about-us h4{
+	text-align: center;
+	font-weight: bold;
 	padding-top: 5px;
-	color: #FF00FF;
+	color: white;
 	font-size: 20px;
 }
 .about-us {
@@ -298,15 +300,36 @@ article h3 {
 caption{
 	color: black;
 }
+.top {
+	width: 100%;
+	text-align: left;
+	justify-items: left;
+	justify-content: center;
+	color: black;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	background-image:  linear-gradient(red, yellow);
+}
 .about-us span {
 	color: #e8f800;
 }
+.ourInfo{
+	font-weight: bold;
+}
 .id-table{
+	margin:  0 auto;
 	border-spacing: 3px;
 	width:auto;
 	min-width: 350px;
 	height: auto;
 	background-color: rgb(243, 236, 228);;
+}
+
+table {
+	margin: 0 auto;
 }
 thead{
 	color: #FF00FF;
@@ -344,8 +367,8 @@ tr th{
 	height: 170px;
 	float: left;
 	margin: 0 20px 0 20px;
-
 }
+
 .profile p{
 	display: inline;
 	height: inherit
@@ -404,8 +427,6 @@ img:hover {
 	cursor: pointer;
 	background-color: rgb(243, 236, 228);
 }
-
-
 
 @media only screen and (max-width:720px){
 	body {
